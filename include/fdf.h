@@ -6,7 +6,7 @@
 /*   By: conyejib <conyejib@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/21 11:37:42 by conyejib          #+#    #+#             */
-/*   Updated: 2023/07/21 13:08:30 by conyejib         ###   ########.fr       */
+/*   Updated: 2023/08/07 00:09:21 by conyejib         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,7 +105,7 @@ typedef struct s_fdf
 # define C_TEXT				C_WHITE
 
 # define HEXADECIMAL_L_BASE	"0123456789abcdef"
-# define ANG_1				0.01745329
+# define ANG_1				0.01745329 //converted to pi-radian
 # define ANG_30				0.52359877
 # define ANG_45				0.78539816
 

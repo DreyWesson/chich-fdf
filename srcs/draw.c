@@ -6,7 +6,7 @@
 /*   By: conyejib <conyejib@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/21 11:44:06 by conyejib          #+#    #+#             */
-/*   Updated: 2023/07/24 13:30:58 by conyejib         ###   ########.fr       */
+/*   Updated: 2023/08/05 02:04:27 by conyejib         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -108,4 +108,13 @@ void	bresenham(t_fdf *fdf, t_point start, t_point end)
 		start.y += y_step;
 	}
 	free(color);
+}
+
+
+int	main ()
+{
+
+	bresenham(10, 600, 300);
+	return 0;
+
 }

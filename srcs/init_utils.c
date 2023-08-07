@@ -6,7 +6,7 @@
 /*   By: conyejib <conyejib@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/21 11:47:09 by conyejib          #+#    #+#             */
-/*   Updated: 2023/07/21 11:47:15 by conyejib         ###   ########.fr       */
+/*   Updated: 2023/08/07 01:15:51 by conyejib         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,8 @@ t_point	**init_coordinates(int width, int depth)
 	int		i;
 	int		j;
 
-	coordinates = malloc(width * sizeof(t_point *));
+	coordinates = m
+	alloc(width * sizeof(t_point *));
 	if (!coordinates)
 		return (NULL);
 	i = 0;
